@@ -17,9 +17,9 @@ public enum Opcion {
     INSERTAR_MATRICULA("Insertar matrícula"),
     BUSCAR_MATRICULA("Buscar matrícula"),
     ANULAR_MATRICULA("Anular matrícula"),
-    MOSTRAR_MATRICULAS("Mostrar matrículas");
-    MOSTRAR_MATRICULAS_ALUMNO("Mostrar matrículas de un Alumno");
-    MOSTRAR_MATRICULAS_CICLO_FORMATIVO("Mostrar matrículas de un Ciclo Formativo");
+    MOSTRAR_MATRICULAS("Mostrar matrículas"),
+    MOSTRAR_MATRICULAS_ALUMNO("Mostrar matrículas de un Alumno"),
+    MOSTRAR_MATRICULAS_CICLO_FORMATIVO("Mostrar matrículas de un Ciclo Formativo"),
     MOSTRAR_MATRICULAS_CURSO_ACADEMICO("Mostrar matrículas de este Curso Académico");
 
     // Atributo que almacena el mensaje de la opción
