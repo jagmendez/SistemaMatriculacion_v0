@@ -1,6 +1,6 @@
 package org.iesalandalus.programacion.matriculacion.negocio;
 
-/*
+
 import org.iesalandalus.programacion.matriculacion.MainApp;
 import org.iesalandalus.programacion.matriculacion.dominio.*;
 import org.junit.jupiter.api.BeforeAll;
@@ -11,10 +11,10 @@ import javax.naming.OperationNotSupportedException;
 import java.time.LocalDate;
 
 import static org.junit.jupiter.api.Assertions.*;
-*/
+
 
 public class MatriculasTest {
-/*
+
     private static final String ERROR_NO_EXCEPCION = "No debería haber saltado la excepción.";
     private static final String ERROR_CAPACIDAD_NO_CORRECTA = "ERROR: La capacidad debe ser mayor que cero.";
     private static final String ERROR_INSERTAR_MATRICULA_NULA = "ERROR: No se puede insertar una matrícula nula.";
@@ -305,15 +305,15 @@ public class MatriculasTest {
             assertEquals(2, matriculas.getTamano(), TAMANO_NO_ESPERADO);
             assertEquals(matricula1, matriculas.buscar(matricula1), MATRICULA_NO_ESPERADA);
             assertNotSame(matricula1, matriculas.buscar(matricula1), REFERENCIA_NO_ESPERADA);
-            try
-            {
+            //try
+            //{
                 assertEquals(matricula1, matriculas.get()[0], OPERACION_NO_REALIZADA);
 
-            }
-            catch (OperationNotSupportedException e1)
-            {
-                System.out.println(e1.getMessage());
-            }
+            //}
+            //catch (OperationNotSupportedException e1)
+            //{
+            //    System.out.println(e1.getMessage());
+            //}
 
             assertEquals(matricula2, matriculas.buscar(matricula2), MATRICULA_NO_ESPERADA);
             assertNotSame(matricula2, matriculas.buscar(matricula2), REFERENCIA_NO_ESPERADA);
@@ -462,5 +462,5 @@ public class MatriculasTest {
     }
 
 
-*/
+
 }
